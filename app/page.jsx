@@ -50,7 +50,7 @@ const Home = () => {
           
           {/* Image Section */}
           <div className = "order-1 xl:order-none mb-8 xl:mb-0">
-            <Photo />
+          <Photo />
           </div>
         </div>
         <Stats />
