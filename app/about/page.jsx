@@ -159,7 +159,6 @@ const Resume = () => {
         </Tabs>
       </div>
 
-      
 
     </motion.div>
     
