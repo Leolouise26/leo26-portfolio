@@ -55,7 +55,7 @@ const Home = () => {
         </div>
         <Stats />
       </div>
-      <div className="xl:h-0 sm:h-20">
+      <div className="xl:h-0 sm:h-24">
 
       </div>
     </section>

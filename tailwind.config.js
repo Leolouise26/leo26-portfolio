@@ -13,7 +13,7 @@ module.exports = {
 		padding: "15px",
 	},
 		screens: {
-			sm: '640px',
+			sm: '410px',
 			md: '768px',
 			lg: '960px',
 			xl: '1200px',
