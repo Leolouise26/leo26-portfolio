@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
@@ -16,6 +16,7 @@ const Contact = () => {
         (result) => {
           console.log('SUCCESS!', result.text);
           alert('Message sent successfully!');
+          form.current.reset(); // Reset form after successful submission
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -24,7 +25,6 @@ const Contact = () => {
       );
   };
 
-  // Define info array here
   const info = [
     {
       icon: <FaPhoneAlt />,
@@ -50,7 +50,7 @@ const Contact = () => {
           {/* Form Section */}
           <div className="xl:w-[65%] order-2 xl:order-none">
             <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-            <h3 className="text-4xl text-accent">{`Let's work together`}</h3>
+              <h3 className="text-4xl text-accent">{`Let's work together`}</h3>
               <p className="text-white/60">Fill out the form to get in touch!</p>
 
               {/* Input Fields */}
@@ -87,9 +87,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="xl:h-0 sm:h-20">
-
-      </div>
+      <div className="xl:h-0 sm:h-20"></div>
     </section>
   );
 };
