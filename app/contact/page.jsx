@@ -50,7 +50,7 @@ const Contact = () => {
           {/* Form Section */}
           <div className="xl:w-[65%] order-2 xl:order-none">
             <form ref={form} onSubmit={sendEmail} className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
-              <h3 className="text-4xl text-accent">Let's work together</h3>
+            <h3 className="text-4xl text-accent">{`Let's work together`}</h3>
               <p className="text-white/60">Fill out the form to get in touch!</p>
 
               {/* Input Fields */}
