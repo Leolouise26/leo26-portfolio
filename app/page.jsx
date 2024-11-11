@@ -25,8 +25,9 @@ const Home = () => {
           <div className="text-center xl:text-left lg:mx-6 order-2 xl:order-none mb-24 sm:mb-16">
             <span className="text-xl">Computer Science Student</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Leo Jimenez</span>
+                {`Hello I'm`} <br /> <span className="text-accent">Leo Jimenez</span>
             </h1>
+
             <p className="max-w-[500px] mb-9 text-white/80">
               Dedicated CS Student | Eager to Tackle Real-World Problems with Technology.
               Specializing in Software Development and Data Structures.
