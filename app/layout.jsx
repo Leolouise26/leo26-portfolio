@@ -21,9 +21,10 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  <link rel="icon" type="image" href="/public/logo1.jpg" />
+ 
   return (
     <html lang="en">
+       <link rel="icon" type="image" href="/public/logo1.jpg" />
       <body className={`${jetbrainsMono.variable} page bg-site bg-cover`}>
         <Header />
         <StairTransition />
