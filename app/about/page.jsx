@@ -104,7 +104,7 @@ const Resume = () => {
           </TabsList>
 
           <div className="min-h-[70vh] w-full">
-            {/* Experience */}
+            {/* Experience */}  
             <TabsContent value="experience" className="w-full">
               <ListSection title={experience.title} description={experience.description} items={experience.items} isExperience />
             </TabsContent>
