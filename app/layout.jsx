@@ -24,7 +24,8 @@ export default function RootLayout({ children }) {
  
   return (
     <html lang="en">
-       <link rel="icon" type="image" href="/public/logo1.jpg" />
+       <link rel="icon" type="image/jpeg" href="/public/logo1.jpg" />
+
       <body className={`${jetbrainsMono.variable} page bg-site bg-cover`}>
         <Header />
         <StairTransition />
