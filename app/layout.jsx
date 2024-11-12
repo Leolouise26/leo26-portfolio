@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: "/logo.jpg",
+        url: "https://leo-louise-jimenez.vercel.app/logo.jpg",
         width: 800, // Update as needed
         height: 800, // Update as needed
         alt: "Logo for Portfolio",
