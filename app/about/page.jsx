@@ -28,7 +28,9 @@ const experience = {
   items: [
     { Language: "Java", yearlvl: "First Year", duration: "2021 - Present" },
     { Language: "Python", yearlvl: "Second Year", duration: "2022 - Present" },
-    { Language: "HTML/CSS/JS", yearlvl: "First Year", duration: "2022 - Present" },
+    { Language: "HTML", yearlvl: "First Year", duration: "2022 - Present" },
+    { Language: "CSS", yearlvl: "First Year", duration: "2022 - Present" },
+    { Language: "JAVASCRIPT", yearlvl: "First Year", duration: "2022 - Present" },
     { Language: "SQL", yearlvl: "First Year", duration: "2022 - Present" },
     { Language: "MongoDB", yearlvl: "Second Year", duration: "2023 - Present" },
     { Language: "React.js", yearlvl: "Third Year", duration: "2024 - Present" },
