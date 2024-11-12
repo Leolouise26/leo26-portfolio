@@ -21,12 +21,15 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: "/logo.jpg", // Path to the image for social media previews
-        alt: "Logo for Portfolio", // Description of the image
+        url: "/logo.jpg",
+        width: 800, // Update as needed
+        height: 800, // Update as needed
+        alt: "Logo for Portfolio",
       },
     ],
-  },  
+  },
 };
+
 
 
 export default function RootLayout({ children }) {
