@@ -21,7 +21,7 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: "/logo-new.jpg",
+        url: "/leocchi-new-logo.jpg",
         width: 500, // Update as needed
         height: 800, // Update as needed
         alt: "Logo for Portfolio",
