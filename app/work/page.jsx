@@ -32,7 +32,7 @@ const projects = [
                 name:"Javascript"
             },
         ],
-        image: "/assets/work/thumb1.jpg",
+        image: "/assets/work/thumb1.webp",
         live:"https://group1-itec-cvsu-website.netlify.app"
     },
     {
@@ -51,7 +51,7 @@ const projects = [
                 name:"Javascript"
             },
         ],
-        image: "/assets/work/thumb2.jpg",
+        image: "/assets/work/thumb2.webp",
         live:"https://technofermata-group1-itec.netlify.app"
     },
     {
@@ -70,7 +70,7 @@ const projects = [
                 name:"MySQL"
             },
         ],
-        image: "/assets/work/thumb3.jpg",
+        image: "/assets/work/thumb3.webp",
         live:"https://github.com/Leolouise26/MyChecklist"
     },
     {
@@ -89,7 +89,7 @@ const projects = [
                 name:"MongoDB"
             },
         ],
-        image: "/assets/work/thumb4.jpg",
+        image: "/assets/work/thumb4.webp",
         live:"https://github.com/Leolouise26/E-commerce-hoopx"
     },
 ]
