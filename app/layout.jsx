@@ -22,7 +22,7 @@ export const metadata = {
     images: [
       {
         url: "/logo-new.jpg",
-        width: 700, // Update as needed
+        width: 500, // Update as needed
         height: 800, // Update as needed
         alt: "Logo for Portfolio",
       },
