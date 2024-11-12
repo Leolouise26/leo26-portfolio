@@ -21,9 +21,7 @@ export const metadata = {
   openGraph: {
     images: [
       {
-        url: "/assets/Photo.webp", // Path to the image for social media previews
-        width: 800,
-        height: 800,
+        url: "/logo.jpg", // Path to the image for social media previews
         alt: "Logo for Portfolio", // Description of the image
       },
     ],
