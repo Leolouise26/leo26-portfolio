@@ -21,7 +21,7 @@ export const metadata = {
 };
 
 export default function RootLayout({ children }) {
-  <link rel="icon" type="image" href="/public/logo1.jgp" />
+  <link rel="icon" type="image" href="/public/logo1.jpg" />
   return (
     <html lang="en">
       <body className={`${jetbrainsMono.variable} page bg-site bg-cover`}>
