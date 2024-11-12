@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { RiInstagramLine, RiFacebookLine, RiTwitterLine, RiTiktokLine, RiGithubLine } from "react-icons/ri";
+import { RiInstagramLine, RiFacebookLine, RiTwitterLine, RiTiktokLine, RiTelegramLine, RiGithubLine } from "react-icons/ri";
 
 const Socials = () => {
     return (
@@ -30,6 +30,15 @@ const Socials = () => {
                 className="hover:text-accent transition-colors duration-300"
             >
                 <RiTwitterLine />
+            </Link>
+            <Link
+                href="https://t.me/Leocchi"
+                aria-label="Visit my Telegram profile"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-accent transition-colors duration-300"
+            >
+                <RiTelegramLine />
             </Link>
             <Link
                 href="https://www.tiktok.com/@leocchi26?lang=en"
