@@ -55,17 +55,47 @@ const Contact = () => {
 
               {/* Input Fields */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <input type="text" name="user_name" placeholder="Firstname" className="input-field bg-white/10" required />
-                <input type="text" name="user_lastname" placeholder="Lastname" className="input-field bg-white/10" required />
-                <input type="email" name="user_email" placeholder="Email address" className="input-field bg-white/10" required />
-                <input type="tel" name="user_phone" placeholder="Phone number" className="input-field bg-white/10" />
+                <input
+                  type="text"
+                  name="user_name"
+                  placeholder="Firstname"
+                  className="input-field bg-white/10 rounded-lg p-3"
+                  required
+                />
+                <input
+                  type="text"
+                  name="user_lastname"
+                  placeholder="Lastname"
+                  className="input-field bg-white/10 rounded-lg p-3"
+                  required
+                />
+                <input
+                  type="email"
+                  name="user_email"
+                  placeholder="Email address"
+                  className="input-field bg-white/10 rounded-lg p-3"
+                  required
+                />
+                <input
+                  type="tel"
+                  name="user_phone"
+                  placeholder="Phone number"
+                  className="input-field bg-white/10 rounded-lg p-3"
+                />
               </div>
 
               {/* Message Textarea */}
-              <textarea name="message" placeholder="Type your message here." className="textarea h-[200px] bg-white/10" required></textarea>
+              <textarea
+                name="message"
+                placeholder="Type your message here."
+                className="textarea h-[200px] bg-white/10 rounded-lg p-3"
+                required
+              ></textarea>
 
               {/* Submit Button */}
-              <button type="submit" className="button max-w-40 bg-accent">Send Message</button>
+              <button type="submit" className="button max-w-[160px] py-3 bg-accent rounded-lg text-lg">
+                Send Message
+              </button>
             </form>
           </div>
 
